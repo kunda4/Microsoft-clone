@@ -1,76 +1,18 @@
 import React from 'react'
+import FooterComponent from './footerComponent'
 
 export default function Footer() {
   return (
     <footer>
         <section className='md:py-12 md:px-20 py-4 px-2 bg-gray-100'>
         <div className='flex md:flex-row flex-col md:justify-start justify-center md:gap-28 gap-4'>
-            <div className='flex flex-col gap-4'>
-                <h4 className='text-xl'>What's new</h4>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-            </div>
-            <div className='flex flex-col gap-4'>
-                <h4 className='text-xl'>Microsoft Store</h4>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-            </div>
-            <div className='flex flex-col gap-4'>
-                <h4 className='text-xl'>Education</h4>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-            </div>
-            <div className='flex flex-col gap-4'>
-                <h4 className='text-xl'>Business</h4>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-            </div>
-            <div className='flex flex-col gap-4'>
-                <h4 className='text-xl'>Developer & IT</h4>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-            </div>
-            <div className='flex flex-col gap-4'>
-                <h4 className='text-xl'>Company</h4>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-                <span className='text-sm'>Surface Laptop 5</span>
-            </div>
+        <FooterComponent  title={'Microsoft Store'}/>
+        <FooterComponent  title={'Education'}/>
+        <FooterComponent  title={'System'}/>
+        <FooterComponent  title={'Business'}/>
+        <FooterComponent  title={'Magasine'}/>
+        <FooterComponent  title={'Imagination'}/>
+         
         </div>
         <div className='flex md:flex-row flex-col justify-between md:pt-20 pt-4'>
             <div className='flex md:flex-row flex-col md:gap-8 gap-2'>
