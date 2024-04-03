@@ -6,7 +6,7 @@ export default function Card() {
   return (
 <section className='md:py-12 md:px-20 py-4 px-1'>
     <div className='flex md:flex-row flex-col justify-center gap-6 py-8'>
-<Item/>
+<Item />
 <Item/>
 <Item content={
     <h5 className='flex gap-2 text-blue-400'>For up to 6 People 

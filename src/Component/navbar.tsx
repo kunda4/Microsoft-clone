@@ -7,15 +7,16 @@ export default function Navbar() {
             <img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" 
             alt="Microsoft logo"
             className='w-24 h-6'/>
-            <li className='hover:underline'>Microsoft 365</li>
-            <li className='hover:underline'>Teams</li>
-            <li className='hover:underline'>Copilot</li>
-            <li className='hover:underline'>Windows</li>
-            <li className='hover:underline'>Surface</li>
-            <li className='hover:underline'>Xbox</li>
-            <li className='hover:underline'>Deals</li>
-            <li className='hover:underline'>Small business</li>
-            <li className='hover:underline'>Support</li>
+            <li className='hover:underline cursor-pointer'>Microsoft 365</li>
+            <li className='hover:underline cursor-pointer'>Teams</li>
+            <li className='hover:underline cursor-pointer'>Copilot</li>
+            <li className='hover:underline cursor-pointer'>Windows</li>
+            <li className='hover:underline cursor-pointer'>Surface</li>
+            <li className='hover:underline cursor-pointer'>Surface</li>
+            <li className='hover:underline cursor-pointer'>Xbox</li>
+            <li className='hover:underline cursor-pointer'>Deals</li>
+            <li className='hover:underline cursor-pointer'>Small business</li>
+            <li className='hover:underline cursor-pointer'>Support</li>
         </ul>
         <div className='flex gap-6 text-sm'>
         <h5 className='flex gap-2 items-center hover:underline'>All Microsoft <span>
